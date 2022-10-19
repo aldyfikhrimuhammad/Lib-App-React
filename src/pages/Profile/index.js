@@ -17,7 +17,8 @@ const Profile = () => {
 
   return (
     <div>
-    <Navbar/>
+      <Navbar/>
+      <h1>Profile Page</h1>
       <div className="card">
         {users.map((user) => {
           return (
