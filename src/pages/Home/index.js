@@ -1,12 +1,24 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
+import NavbarComp from '../../components/Navbar'
 import '../../styles/Pages/Home/Home.css'
+import CarouselComp from '../../components/Carousel'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
     <div className='App'>
-        <Navbar/>
-        <h1>Home Page</h1>
+    <NavbarComp/>
+      <Container>
+      <Row className='d-flex flex-column'>
+        <Col><CarouselComp/></Col>
+        <Col>
+          <h1>List Books</h1>
+        </Col>
+      </Row>
+    </Container>
+        
     </div>
   )
 }
