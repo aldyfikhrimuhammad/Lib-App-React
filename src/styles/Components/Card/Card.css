@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card table {
+    width: 100vw;
+}
+
+.card td {
+    border: 1px solid black;
+    text-align: start;
+    width: fit-content;
+}
