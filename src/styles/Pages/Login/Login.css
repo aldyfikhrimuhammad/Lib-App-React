@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  height: 100vh;
+}
+
+#left-side {
+  background-image: url(../../../Assets/Auth\ Background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-left {
+  z-index: 100;
+  color: white;
+}
+
+.login-btn {
+  background-color: black !important;
+  color: white !important;
+}
+
+.signup-btn {
+  background-color: white !important;
+  color: black !important;
+}

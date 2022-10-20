@@ -27,10 +27,10 @@ const Home = () => {
               <Row className="d-flex justify-content-center align-items-center">
                 <Col className="d-flex justify-content-center align-items-center mt-4">
                   <Link to={"/detail"}>
-                    <Card style={{ width: "18rem" }} className="card-home">
+                    <Card style={{ width: "18rem" }} className="card-home shadow-lg">
                       <Card.Img variant="top" src={Laskar} style={{ height: "20rem" }} />
                       <Card.Body>
-                        <Card.Title>Laskar Pelangi</Card.Title>
+                        <Card.Title className="text-center">Laskar Pelangi</Card.Title>
                         <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere eu est eu fermentum. Cras tempor mollis urna. Integer mattis, metus ut aliquet faucibus.</Card.Text>
                       </Card.Body>
                     </Card>
@@ -38,10 +38,10 @@ const Home = () => {
                 </Col>
                 <Col className="d-flex justify-content-center align-items-center mt-4">
                   <Link to={"/detail"}>
-                    <Card style={{ width: "18rem" }} className="card-home">
+                    <Card style={{ width: "18rem" }} className="card-home shadow-lg">
                       <Card.Img variant="top" src={Dilan} style={{ height: "20rem" }} />
                       <Card.Body>
-                        <Card.Title>Dilan 1990</Card.Title>
+                        <Card.Title className="text-center">Dilan 1990</Card.Title>
                         <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere eu est eu fermentum. Cras tempor mollis urna. Integer mattis, metus ut aliquet faucibus.</Card.Text>
                       </Card.Body>
                     </Card>
@@ -49,10 +49,10 @@ const Home = () => {
                 </Col>
                 <Col className="d-flex justify-content-center align-items-center mt-4">
                   <Link to={"/detail"}>
-                    <Card style={{ width: "18rem" }} className="card-home">
+                    <Card style={{ width: "18rem" }} className="card-home shadow-lg">
                       <Card.Img variant="top" src={Harry} style={{ height: "20rem" }} />
                       <Card.Body>
-                        <Card.Title>Harry Potter</Card.Title>
+                        <Card.Title className="text-center">Harry Potter</Card.Title>
                         <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere eu est eu fermentum. Cras tempor mollis urna. Integer mattis, metus ut aliquet faucibus.</Card.Text>
                       </Card.Body>
                     </Card>
