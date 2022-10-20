@@ -10,11 +10,11 @@ const Home = () => {
   return (
     <div className='App'>
     <NavbarComp/>
-      <Container>
-      <Row className='d-flex flex-column'>
+      <Container className="mt-5">
+      <Row className='d-flex flex-column mb-3 justify-content-center align-items-center'>
         <Col><CarouselComp/></Col>
-        <Col>
-          <h1>List Books</h1>
+        <Col className='p-2 w-100 mt-5'>
+          <h2 className='ms-5 mb-3 text-start'>List Books</h2>
         </Col>
       </Row>
     </Container>

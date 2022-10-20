@@ -1,26 +1,20 @@
 import React from 'react'
 import '../../styles/Components/Card/Card.css'
+import Card from 'react-bootstrap/Card';
 
-const Card = (props) => {
-const {name, username, email, street} = props;
+const CardComp = (props) => {
+const {title, description, urlImage} = props;
   return (
-    <div className="card">
-      <table>
-        <tr>
-          <td>Name</td>
-          <td>Username</td>
-          <td>Email</td>
-          <td>Address</td>
-        </tr>
-        <tr>
-          <td>{name}</td>
-          <td>{username}</td>
-          <td>{email}</td>
-          <td>{street}</td>
-        </tr>
-      </table>
-    </div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={urlImage} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>
+          {description}
+        </Card.Text>
+      </Card.Body>
+    </Card>
   )
 }
 
-export default Card;
+export default CardComp;

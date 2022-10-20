@@ -7,9 +7,8 @@ function Searchbar() {
       <FloatingLabel
         controlId="floatingTextarea"
         label="Search"
-        className="mb-3"
       >
-        <Form.Control as="textarea" placeholder="Search" />
+        <Form.Control as="textarea" placeholder="Search" className="rounded-pill w-100"  />
       </FloatingLabel>
     </>
   );

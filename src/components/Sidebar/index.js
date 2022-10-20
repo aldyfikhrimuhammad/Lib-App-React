@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Icon } from '@iconify/react';
 
 function Sidebar() {
   const [show, setShow] = useState(false);
@@ -10,11 +10,9 @@ function Sidebar() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch
-      </Button>
+      <Icon icon="charm:menu-hamburger" width="25" height="25" onClick={handleShow} className="sidebar-button"/>
 
-      <Offcanvas show={show} onHide={handleClose}>
+      <Offcanvas show={show} onHide={handleClose} className="sidebar-section">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>

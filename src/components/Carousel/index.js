@@ -2,11 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselComp() {
   return (
-    <Carousel>
+    <Carousel className="w-100 h-10">
       <Carousel.Item>
         <img
-          className="d-block w-100 h-50"
-          src="https://picsum.photos/seed/picsum/200/300"
+          className="d-block w-100 h-10"
+          src="https://picsum.photos/seed/picsum/50/100"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -16,8 +16,8 @@ function CarouselComp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-50"
-          src="https://picsum.photos/seed/picsum/200/300"
+          className="d-block w-100 h-10"
+          src="https://picsum.photos/seed/picsum/50/100"
           alt="Second slide"
         />
 
@@ -28,8 +28,8 @@ function CarouselComp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-50"
-          src="https://picsum.photos/seed/picsum/200/300"
+          className="d-block w-100 h-10"
+          src="https://picsum.photos/seed/picsum/50/100"
           alt="Third slide"
         />
 
