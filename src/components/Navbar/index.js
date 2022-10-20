@@ -14,12 +14,12 @@ import "../../styles/Components/Navbar/Navbar.css";
 const NavbarComp = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg" className="bg-white shadow-lg navbar-section">
-        <Container>
+      <Navbar bg="light" expand="lg" className="bg-white shadow-lg navbar-section border">
+        <Container fluid>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto p-1 d-flex justify-content-center align-items-center w-100">
-              <Container>
+              <Container fluid>
                 <Row>
                   <Col sm className="p-1 d-flex justify-start align-items-center left-content">
                     <div className="d-flex align-items-center">
