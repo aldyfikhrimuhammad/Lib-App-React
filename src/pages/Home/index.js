@@ -18,7 +18,7 @@ const Home = () => {
       <Container className="mt-5">
         <Row className="d-flex flex-column mb-3 justify-content-center align-items-center">
           <Col>
-          <h1 className="text-center">Disini Ada Carousel</h1>
+            <h1 className="text-center">Disini Ada Carousel</h1>
             {/* <CarouselComp /> */}
           </Col>
           <Col className="p-2 w-100 mt-5">
