@@ -12,8 +12,8 @@ const Home = () => {
       <NavbarComp />
       <Container className="mt-5">
         <Row className='d-flex flex-column mb-3 justify-content-center align-items-center'>
-          <Col>
-            <h1 className='p-2 w-100 mt-5 border'>1st content</h1>
+          <Col className='p-2 w-100 mt-5 border'>
+            <CarouselComp />
           </Col>
           <Col className='p-2 w-100 mt-5 border'>
             <h1>2nd content</h1>

@@ -1,0 +1,35 @@
+/* Carousel */
+.gallery {
+    margin-top: 1%;
+}
+    
+.gallery-cell {
+    width: 600px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    counter-increment: gallery-cell;
+}
+
+    
+.gallery-cell img {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    transition: 0.5s;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.gallery-cell img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-cell h4 {
+    color: white;
+    font-weight: 600;
+}
+
+.gallery-cell p {
+    color: white;
+}
