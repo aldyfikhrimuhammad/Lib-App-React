@@ -4,11 +4,8 @@ import Form from 'react-bootstrap/Form';
 function Searchbar() {
   return (
     <>
-      <FloatingLabel
-        controlId="floatingTextarea"
-        label="Search"
-      >
-        <Form.Control as="textarea" placeholder="Search" className="rounded-pill w-100"  />
+      <FloatingLabel controlId="floatingInput" label="Search">
+        <Form.Control type="search" placeholder="Search" className="rounded-pill" />
       </FloatingLabel>
     </>
   );

@@ -42,9 +42,11 @@ const NavbarComp = () => {
                     </div>
                   </Col>
                   <Col sm className="p-1 d-flex justify-content-end align-items-center right-content">
-                    <div>
-                      <Icon icon="fluent:library-20-regular" width="35" height="35" />
-                      <Navbar.Brand href="/">Library</Navbar.Brand>
+                    <div className="d-flex justify-content-center align-items-center">
+                      <Icon icon="fluent:library-20-regular" width="35" height="35" className="me-1" />
+                      <Link to={"/"}>
+                        <Navbar.Brand href="/">Library</Navbar.Brand>
+                      </Link>
                     </div>
                   </Col>
                 </Row>
