@@ -1,7 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import ButtonComp from '../Button';
 
 function ModalComp(props) {
+  const { modalTitle } = props;
   return (
     <Modal
       {...props}
@@ -10,20 +14,55 @@ function ModalComp(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+        <Modal.Title id="contained-modal-title-vcenter " className='text-dark'>
+          {modalTitle}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <div className="container text-center">
+          <div className="row w-100 d-flex align-items-center justify-content-center">
+            <div className="col-4 d-flex align-items-center justify-content-start"><h6>URL Image</h6></div>
+            <div className="col-8 d-flex align-items-center justify-content-center">
+              <InputGroup className="mb-3">
+                <Form.Control
+                  placeholder="URL Image"
+                  aria-label="URL Image"
+                  aria-describedby="basic-addon1"
+                />
+              </InputGroup>
+            </div>
+
+            <div className="w-100"></div>
+
+            <div className="col-4 d-flex align-items-center justify-content-start"><h6>Title</h6></div>
+            <div className="col-8 d-flex align-items-center justify-content-center">
+              <InputGroup className="mb-3">
+                <Form.Control
+                  placeholder="Title"
+                  aria-label="Title"
+                  aria-describedby="basic-addon1"
+                />
+              </InputGroup>
+            </div>
+
+            <div className="w-100"></div>
+
+            <div className="col-4 d-flex align-items-center justify-content-start"><h6>Description</h6></div>
+            <div className="col-8 d-flex align-items-center justify-content-center">
+              <InputGroup className="mb-3">
+                <Form.Control
+                  placeholder="Description"
+                  aria-label="Description"
+                  aria-describedby="basic-addon1"
+                  as="textarea"
+                />
+              </InputGroup>
+            </div>
+          </div>
+        </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <ButtonComp onClick={props.onHide} />
       </Modal.Footer>
     </Modal>
   );

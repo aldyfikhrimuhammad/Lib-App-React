@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import ProfilePicture from '../../Assets/Profile Picture.jpeg'
 import '../../styles/Components/Sidebar/Sidebar.css'
 import ModalComp from "../../components/Modal"
-import Button from 'react-bootstrap/Button';
 
 function Sidebar() {
   const [show, setShow] = useState(false);
@@ -42,9 +41,9 @@ function Sidebar() {
             <div class="p-2 ms-5">
               <h3 onClick={() => setModalShow(true)}>Add Book</h3>
               <ModalComp
-              show={modalShow}
-              onHide={() => setModalShow(false)}
-            />
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
             </div>
           </div>
         </Offcanvas.Body>

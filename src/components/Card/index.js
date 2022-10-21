@@ -3,10 +3,10 @@ import '../../styles/Components/Card/Card.css'
 import Card from 'react-bootstrap/Card';
 
 const CardComp = (props) => {
-const {title, description, urlImage} = props;
+const {title, description, image} = props;
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={urlImage} />
+      <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>

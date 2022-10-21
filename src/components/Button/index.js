@@ -1,9 +1,10 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
 
-const Button = () => {
+const ButtonComp = () => {
   return (
-    <div>Button</div>
+    <Button variant="warning" className='text-light' size="lg">Save</Button>
   )
 }
 
-export default Button
+export default ButtonComp

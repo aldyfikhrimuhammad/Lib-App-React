@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.upper-content {
+  background-image: url(../../../Assets/Harry\ Potter\ Landscape.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+  width: 100vw !important;
+}

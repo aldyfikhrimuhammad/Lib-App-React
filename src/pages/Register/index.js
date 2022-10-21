@@ -20,7 +20,7 @@ const Register = () => {
           <strong
           ><p>Welcome back!<br />Please register to create account.</p></strong>
           <form>
-          <FloatingLabel controlId="floatingInput" label="Username">
+            <FloatingLabel controlId="floatingInput" label="Username">
               <Form.Control type="text" placeholder="Username" className="rounded-0 border-bottom-0" />
             </FloatingLabel>
             <FloatingLabel controlId="floatingInput" label="Full Name">
@@ -32,11 +32,11 @@ const Register = () => {
             <FloatingLabel controlId="floatingPassword" label="Password" className="mb-3">
               <Form.Control type="password" placeholder="Password" className="rounded-0 " />
             </FloatingLabel>
-            <Link to={"/login"} className="btn login-btn shadow btn-lg me-2 mt-3">
-              Login
-            </Link>
-            <Link to={"/"} className="btn signup-btn shadow btn-lg ms-1 mt-3">
+            <Link to={"/"} className="btn signup-btn shadow btn-lg me-2 mt-3">
               Register
+            </Link>
+            <Link to={"/login"} className="btn login-btn shadow btn-lg ms-1 mt-3">
+              Login
             </Link>
           </form>
         </div>
