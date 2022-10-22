@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import '../../styles/Pages/Login/Login.css'

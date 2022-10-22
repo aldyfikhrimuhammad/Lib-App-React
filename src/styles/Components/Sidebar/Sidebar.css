@@ -1,4 +1,35 @@
 .profile-picture {
-    width: 10em;
-    height: 10em;
+  width: 10em;
+  height: 10em;
+}
+
+.Navigator-Sidebar {
+  cursor: pointer !important;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.Navigator-Sidebar:hover {
+  text-shadow: 2px 2px 5px #ffbb33;
+}
+
+.Logout-Button {
+  font-weight: 600 !important;
+  color: black !important;
+  border: 1px solid black !important;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+}
+
+.Logout-Button:hover {
+  color: white !important;
+  background-color: black !important;
+  box-shadow: 2px 2px 5px black;
 }

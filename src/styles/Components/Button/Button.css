@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-Comp {
+    font-weight: bolder !important;
+    width: 150px;
+    transition: 0.3 ease-in-out;
+    -webkit-transition: 0.3 ease-in-out;
+    -moz-transition: 0.3 ease-in-out;
+    -ms-transition: 0.3 ease-in-out;
+    -o-transition: 0.3 ease-in-out;
+}
+
+.button-Comp:hover {
+    box-shadow: 2px 2px;
+}

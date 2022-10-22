@@ -3,10 +3,53 @@
   padding: 0px;
 }
 
+.Detail-Section {
+  overflow: hidden !important;
+}
+
 .upper-content {
   background-image: url(../../../Assets/Harry\ Potter\ Landscape.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh !important;
   width: 100vw !important;
+}
+
+.Back-Button {
+  text-decoration: none !important;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.Back-Button:hover {
+  color: #ffbb33 !important;
+}
+
+.Modal-Button {
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.Modal-Button:hover {
+  color: #ffbb33 !important;
+}
+
+.Text-Status {
+  font-weight: bolder !important;
+}
+
+.Text-Title {
+  font-weight: bolder !important;
+}
+
+.Text-Date {
+  font-weight: bolder !important;
 }

@@ -3,8 +3,8 @@ import Atomic from '../../Assets/Atomic Habits Landscape.jpeg';
 import Dilan from '../../Assets/Dilan 1990 Landscape.jpeg';
 import Harry from '../../Assets/Harry Potter Landscape.jpeg';
 import '../../styles/Components/Carousel/Carousel.css'
-const Flickity = require('react-flickity-component');
 
+const Flickity = require('react-flickity-component');
 const flickityOptions = {
   initialIndex: 2,
   wrapAround: true

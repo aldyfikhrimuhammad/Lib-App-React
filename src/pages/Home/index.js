@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/Pages/Home/Home.css";
-import NavbarComp from "../../components/Navbar";
-import CarouselComp from "../../components/Carousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
 import Laskar from "../../Assets/laskar Pelangi Portrait.jpeg";
 import Dilan from "../../Assets/Dilan 1990 Portrait.jpeg";
 import Harry from "../../Assets/Harry Potter Portrait.jpeg";
 import CardComp from "../../components/Card";
+import NavbarComp from "../../components/Navbar";
+import CarouselComp from "../../components/Carousel";
+import "../../styles/Pages/Home/Home.css";
 
 const Home = () => {
   const listBooks = [
@@ -28,14 +27,15 @@ const Home = () => {
       image: Harry,
       title: "Harry Potter",
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, ea laborum. Ducimus esse laudantium, necessitatibus ex unde enim provident temporibus similique tempore atque totam explicabo, dolorum error ut illo!"
-    },
+    }
   ]
+
   return (
     <div className="App">
       <NavbarComp />
       <Container className="mt-5">
         <Row className="d-flex flex-column mb-3 justify-content-center align-items-center">
-          <Col className='border w-100 p-5'>
+          <Col className='w-100 p-5'>
             <CarouselComp />
           </Col>
           <Col className="p-2 w-100 mt-5">
@@ -43,7 +43,7 @@ const Home = () => {
             <Container>
               <Row className="d-flex justify-content-center align-items-center">
                 <Col className="d-flex justify-content-center align-items-center mt-4">
-                  <Link to={"/detail"} className="d-flex justify-content-center align-items-center mt-4 border">
+                  <Link to={"/detail"} className="d-flex justify-content-center align-items-center mt-4">
                     {listBooks.map(book => {
                       return (
                         <CardComp

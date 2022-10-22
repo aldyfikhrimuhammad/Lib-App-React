@@ -1,4 +1,25 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Navbar-Menu {
+  font-weight: 700 !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.Navbar-Menu:hover {
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+}
+
+.Dropdown-Menu:hover {
+  text-shadow: none !important;
 }

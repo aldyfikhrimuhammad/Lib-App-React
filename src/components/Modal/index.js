@@ -1,8 +1,8 @@
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import ButtonComp from '../Button';
+import '../../styles/Components/Modal/Modal.css'
 
 function ModalComp(props) {
   const { modalTitle } = props;
@@ -62,7 +62,7 @@ function ModalComp(props) {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <ButtonComp onClick={props.onHide} />
+        <ButtonComp onClick={props.onHide} buttonText={"Save"} />
       </Modal.Footer>
     </Modal>
   );

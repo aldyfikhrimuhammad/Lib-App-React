@@ -1,14 +1,27 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.card table {
-    width: 100vw;
+.Card-Comp {
+  width: 18em !important;
+  text-decoration: none !important;
+  color: black !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
-.card td {
-    border: 1px solid black;
-    text-align: start;
-    width: fit-content;
+.Img-Card {
+  height: 20em;
+}
+
+.Card-Comp:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
