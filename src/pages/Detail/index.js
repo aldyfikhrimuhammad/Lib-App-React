@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { listBooks } from '../../../Data';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
@@ -6,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../../styles/Pages/Detail/Detail.css'
 import { Icon } from '@iconify/react';
-import { Link } from "react-router-dom";
+import { Link, useParams } from 'react-router-dom';
 import ModalComp from '../../components/Modal';
 import Card from "react-bootstrap/Card";
 import Harry from '../../Assets/Harry Potter Portrait.jpeg'
@@ -17,7 +18,10 @@ const Detail = () => {
   const [modalShow, setModalShow] = React.useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  // const [bookId] = useParams();
+  // const [book] = useState(listBooks[bookId-1])
   return (
+
     <Container fluid className='w-100 Detail-Section'>
       <Row className="d-flex flex-column mb-3 justify-content-center align-items-center">
         <Col sm={6} className="p-2 w-100 upper-content">
@@ -46,7 +50,7 @@ const Detail = () => {
             <Col md={8} className="p-3">
               <div className='float-start m-2'>
                 <Button variant="warning" className='text-light rounded-pill disabled w-100 text-center mb-3' size="lg"><h3>Novel</h3></Button>
-                <h1 className='Text-Title'>Harry Potter</h1>
+                <h1 className='Text-Title'>HArry Potter</h1>
                 <h5 className='Text-Date'>30 June 2019</h5>
               </div>
               <h2 className="float-end mt-4 text-success Text-Status">Available</h2>
