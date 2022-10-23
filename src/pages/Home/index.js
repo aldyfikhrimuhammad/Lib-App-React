@@ -43,7 +43,7 @@ const Home = () => {
             <Container>
               <Row className="d-flex justify-content-center align-items-center">
                 <Col className="d-flex justify-content-center align-items-center mt-4">
-                  <Link to={"/detail"} className="d-flex justify-content-center align-items-center mt-4">
+                  <Link to={"/detail"} className="d-flex justify-content-center align-items-center mt-4 card-Home">
                     {listBooks.map(book => {
                       return (
                         <CardComp

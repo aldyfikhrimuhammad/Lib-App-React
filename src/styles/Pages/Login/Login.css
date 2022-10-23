@@ -28,3 +28,16 @@
   background-color: white !important;
   color: black !important;
 }
+
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+  #left-side {
+      display: none !important;
+  }
+
+  #right-side {
+    width: 100vw;
+  }
+
+}

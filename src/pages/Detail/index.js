@@ -43,7 +43,7 @@ const Detail = () => {
         </Col>
         <Col sm={6} className="p-2 w-100 lower-content">
           <Row>
-            <Col sm={8} className="p-3">
+            <Col md={8} className="p-3">
               <div className='float-start m-2'>
                 <Button variant="warning" className='text-light rounded-pill disabled w-100 text-center mb-3' size="lg"><h3>Novel</h3></Button>
                 <h1 className='Text-Title'>Harry Potter</h1>
@@ -55,9 +55,9 @@ const Detail = () => {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, ea laborum. Ducimus esse laudantium, necessitatibus ex unde enim provident temporibus similique tempore atque totam explicabo, dolorum error ut illo! Quo nostrum consequatur veniam voluptate nisi dicta, esse omnis. Nesciunt corrupti earum voluptatibus. Iusto porro quod atque velit ipsum pariatur deserunt quaerat. Voluptate accusantium cupiditate corrupti repellendus itaque cum illum expedita modi sit. Dolorum error ut illo! Quo nostrum consequatur veniam voluptate nisi dicta, esse omnis. Nesciunt corrupti earum voluptatibus. Molestias, ea laborum. Ducimus esse laudantium, necessitatibus ex unde enim provident temporibus similique tempore atque totam explicabo, dolorum error ut illo! Quo nostrum consequatur veniam voluptate nisi dicta, esse omnis.</p>
               </div>
             </Col>
-            <Col sm={4} className='d-flex flex-column justify-content-center align-items-center'>
-              <Card.Img src={Harry} className='w-50 rounded' />
-              <div className=' w-50 mt-5 mb-5 d-flex justify-content-center align-items-center'>
+            <Col md={4} className='d-flex flex-column justify-content-center align-items-center Content-Right'>
+              <Card.Img src={Harry} className='w-50 rounded Img-Card' />
+              <div className=' w-50 mt-5 mb-5 d-flex justify-content-center align-items-center Btn-Detail'>
                 <ButtonComp buttonText={"Borrow"} size="lg" />
               </div>
             </Col>

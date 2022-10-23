@@ -6,7 +6,7 @@ import '../../styles/Components/Carousel/Carousel.css'
 
 const Flickity = require('react-flickity-component');
 const flickityOptions = {
-  initialIndex: 2,
+  initialIndex: 1,
   wrapAround: true
 }
 

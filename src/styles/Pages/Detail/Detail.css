@@ -53,3 +53,10 @@
 .Text-Date {
   font-weight: bolder !important;
 }
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+  .Img-Card {
+    display: none !important;
+  }
+}

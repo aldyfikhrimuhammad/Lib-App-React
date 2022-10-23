@@ -1,8 +1,22 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    text-align: center;
+  text-align: center;
+}
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+  .Card-Home {
+    display: flex;
+    flex-direction: coloumn;
+    justify-content: center;
+  }
+
+  /*
+    body {
+        overflow: hidden;
+    } */
 }
