@@ -32,10 +32,10 @@ const Detail = () => {
           </div>
           <h5 onClick={handleShow} className='float-end m-3 text-light Modal-Button'>Delete</h5>
 
-          <Modal show={show} onHide={handleClose} classname="d-flex justify-content-center align-items-center flex-column ">
+          <Modal show={show} onHide={handleClose} classname="d-flex justify-content-center align-items-center flex-column">
             <Modal.Body classname="d-flex justify-content-center align-items-center flex-column">
-              <Icon icon="el:ok-circle" color="green" width="250" height="250" />
-              <p class="mt-5">Data <strong>Dillan 1990</strong> has been deleted!</p>
+              <Icon icon="el:ok-circle" color="green" width="250" height="250" classname="d-flex justify-content-center align-items-center" />
+              <p classname=" mt-5 d-flex justify-content-center align-items-center">Data <strong>Harry Poter</strong> has been deleted!</p>
             </Modal.Body>
           </Modal>
 
@@ -50,7 +50,7 @@ const Detail = () => {
             <Col md={8} className="p-3">
               <div className='float-start m-2'>
                 <Button variant="warning" className='text-light rounded-pill disabled w-100 text-center mb-3' size="lg"><h3>Novel</h3></Button>
-                <h1 className='Text-Title'>HArry Potter</h1>
+                <h1 className='Text-Title'>Harry Potter</h1>
                 <h5 className='Text-Date'>30 June 2019</h5>
               </div>
               <h2 className="float-end mt-4 text-success Text-Status">Available</h2>
